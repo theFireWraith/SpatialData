@@ -1,0 +1,131 @@
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle>
+<Icon>
+<href>
+http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png
+</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>Home</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.2796300,34.0283250</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>BofA</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.2773280,34.0272990</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Pasta Roma</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.2778290,34.02612260</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Blaze Pizza</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.2793480,34.0232400</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Chase Bank</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.2806070,34.0223350</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Leavey Library</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.2832420,34.0216620</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Starbucks</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.2844140,34.0246580</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Fire Station</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.2837710,34.0269090</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Sigma Phi Delta</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.2815550,34.0269080</coordinates>
+</Point>
+</Placemark> 
+       
+<Style id="polygonStyle">
+<PolyStyle>
+<color>60F4AE14</color>
+</PolyStyle>
+</Style>
+<Placemark>
+<styleUrl>#polygonStyle</styleUrl>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+-118.283242,34.021662,110
+-118.284414,34.024658,110
+-118.283771,34.026909,110
+-118.27963,34.028325,110
+-118.277328,34.027299,110
+-118.277829,34.0261226,110
+-118.279348,34.02324,110
+-118.280607,34.022335,110
+-118.283242,34.021662,110
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+
+
+<Placemark>
+        <LineString>
+            <coordinates>
+-118.2796300,34.0283250,0
+-118.281555,34.026908,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+    
+    <Placemark>
+        <LineString>
+            <coordinates>
+-118.2796300,34.0283250,0
+-118.277328,34.027299,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+    <Placemark>
+        <LineString>
+            <coordinates>
+-118.2796300,34.0283250,0
+-118.277829,34.0261226,0
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+</Document>
+</kml>
